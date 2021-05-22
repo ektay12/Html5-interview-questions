@@ -1,0 +1,210 @@
+Q1. What is HTML?
+
+HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web. It makes the text more interactive and dynamic. It can turn text into images, tables, links.
+----------------------------------------------------------------------------Q2. What are Tags?
+
+HTML tags are composed of three things: an opening tag, content and ending tag. Some tags are unclosed tags.
+
+HTML documents contain two things:
+
+content, and
+tags
+When a web browser reads an HTML document, the browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+----------------------------------------------------------------------------
+Q3. How to create a hyperlink in HTML?
+
+The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:
+
+Unvisited link - It is displayed, underlined and blue.
+Visited link - It is displayed, underlined and purple.
+Active link - It is displayed, underlined and red.
+----------------------------------------------------------------------------
+Q4. What is the difference between HTML elements and tags?
+
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a pair and surround content.
+----------------------------------------------------------------------------
+Q5. What is semantic HTML?
+
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
+---------------------------------------------------------------------------
+Q6. What is a marquee?
+Marquee is used to put the scrolling text on a web page. It scrolls the image or text up, down, left or right automatically. You should put the text which you want to scroll within the <marquee>......</marquee> tag.
+---------------------------------------------------------------------------
+Q7. What is the use of a span tag? Give one example.
+The span tag is used for following things:
+
+For adding color on text
+For adding background on text
+Highlight any color text
+----------------------------------------------------------------------------
+Q8.  What are the entities in HTML?
+
+The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
+----------------------------------------------------------------------------
+Q9. Does a <!DOCTYPE html> tag is a HTML tag?
+
+No, the <!DOCTYPE html> declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
+
+----------------------------------------------------------------------------
+Q10.  What is the canvas element in HTML5?
+
+The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript. It allows for dynamic and scriptable rendering of 2D shapes and bitmap images. There are several methods in canvas to draw paths, boxes, circles, text and add images.
+----------------------------------------------------------------------------
+Q11.  What is SVG?
+
+HTML SVG is used to describe the two-dimensional vector and vector/raster graphics. SVG images and their behaviors are defined in XML text files. So as XML files, you can create and edit an SVG image with the text editor. It is mostly used for vector type diagrams like pie charts, 2-Dimensional graphs in an X, Y coordinate system.
+----------------------------------------------------------------------------
+Q12. What is the use of figcaption tag in HTML 5?
+
+The <figcaption> element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the <figure> tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element.
+
+<figure>    
+  <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
+<figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption>    
+</figure>      
+----------------------------------------------------------------------------
+Q13. If I do not put <!DOCTYPE html> will HTML 5 work?
+
+No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.
+----------------------------------------------------------------------------
+Q14. What are the differences between HTML5 and HTML?
+Answer: Following are the various differences between HTML and HTML5:
+
+1. Attributes
+
+Attributes of Async, charset, and ping are available in HTML5. The same is not available in HTML.
+
+1. Doctype Declaration
+
+HTML features a long and complicated doctype declaration. The same is simple and easy in HTML5.
+
+2. Drag-and-Drop
+
+While HTML5 provides support for the drag-and-drop effect, HTML has no provision for it.
+
+3. Drawing Geometric Shapes
+There is no way of drawing shapes like circles, rectangles, and triangles in HTML. The same can be drawn in HTML5.
+
+4. High-level Video and Audio Support
+
+High-level audio and video support isn't a part of the HTML specifications. HTML5 offers out-of-the-box high-level audio and video support.
+
+5. In-text Use
+
+MathML and SVG can be used in text in HTML5. The same is not possible in HTML.
+
+6. JavaScript Support
+
+HTML doesn't provide support for running J.S. within the web browser. HTML5 allows JavaScript to run in the background using Web Workers.
+
+7. Mobile-ready
+
+HTML is not mobile-ready. HTML5 specifications involve emphasis on mobile-friendliness.
+
+8. Storage
+
+
+There is no persistent storage option available in HTML. Only browser cache is used as temporary storage. HTML5 allows permanent storage with an application cache, Web SQL database, and web storage.
+
+9. Vector Graphics
+
+HTML5 provides support for Canvas, SVG, and other virtual vector graphics. Implementing vector graphics in HTML is only possible using third-party plugins like Silverlight and VML.
+----------------------------------------------------------------------------
+Q15. Please explain how to indicate the character set being used by a document in HTML5?
+Answer: The character set being used by an HTML5 document is indicated using the charset attribute of a <meta> tag inside the <head> element of the HTML5 document
+----------------------------------------------------------------------------
+Q16. What is the purpose of 'article' tag in HTML5?
+
+This tag represents an independent piece of content of a document, such as a blog entry or newspaper article.
+----------------------------------------------------------------------------
+Q17. What is the purpose of url input control in Web form 2.0?
+
+This accepts only URL value. This type is used for input fields that should contain a URL address. If you try to submit a simple text, it forces to enter only URL address either in http://www.example.com format or in http://example.com format.
+----------------------------------------------------------------------------
+Q18. Do <th> tags always need to come at the start of a row or column?
+
+Any <tr> tag can be changed to a <th> tag. This causes the text contained within the <th> tag to be displayed as bold in the browser. Although <th> tags are mainly used for headings, they do not need to be used exclusively for headings.
+----------------------------------------------------------------------------
+Q19. Are <br> tags the only way to separate sections of text?
+
+No. The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text.
+----------------------------------------------------------------------------
+Q20. How are active links different from normal links?
+
+The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.
+----------------------------------------------------------------------------
+Q21. When is it appropriate to use frames?
+
+Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window.
+----------------------------------------------------------------------------
+Q22. Which browsers support HTML5?
+
+The latest versions of Google Chrome, Apple Safari, Mozilla Firefox, and Opera all support most of the HTML5 features.
+----------------------------------------------------------------------------
+Q23. Name two new tags included in the HTML 5
+
+<Video> and <Audio> are new tags which are included in HTML5 version. They are mainly used as a replacement for Flash, Silverlight, and similar technologies to play multimedia items.
+
+----------------------------------------------------------------------------
+Q24. What are two types of Web Storage in HTML5?
+
+Two storage types of HTML5 are:
+
+Session Storage:
+
+It stores data of current session only. It means that the data stored in session storage clear automatically when the browser is closed.
+
+Local Storage:
+
+Local storage is another type of HTML5 Web Storage. In local storage, data is not deleted automatically when the current browser window is closed.
+----------------------------------------------------------------------------
+Q25. Explain five new input types provided by HTML5 for forms?
+
+Following are the important, new data types offered by HTML5:
+
+Date: It allows the user to select a date.
+datetime-local: This input type allows the user to select a date and time without time zone.
+datetime: This input type allows the user to select a date and time with time zone.
+month: It enables the user to select a month and year
+email: These input fields used to contain an e-mail address.
+----------------------------------------------------------------------------
+Q26. Can a web page contain multiple <header> elements? What about <footer> elements?
+
+Yes to both. In fact, both the <header> and <footer> tags are designed to serve their respective purposes in relation to whatever their parent “section” may be. So not only can the page <body> contain a header and a footer, but so can every <article> and <section> element. In fact, a <header> should be present for all of these, although a <footer> is not always necessary.
+----------------------------------------------------------------------------
+Q27. Describe the relationship between the <header> and <h1> tags in HTML5.
+
+In previous specifications of HTML, only one <h1> element was typically present on a page, used for the heading of the entire page. HTML5 specifies that <h1> represents the top-level heading of a “section”, whether that be the page <body>, or an <article> or <section> element. In fact, every <header> element should at least contain an <h1> element. If there is no natural heading for the section, it is a good indication it should not use an <article> or <section> tag.
+----------------------------------------------------------------------------
+Q28.What is the difference between span and div?
+
+The difference is that span gives the output with display: inline and div gives the output with display: block.
+
+span is used when we need our elements to be shown in a line, one after the other.
+----------------------------------------------------------------------------
+Q29. Why do we use HTML5?
+
+Answer: HTML5 supports animation, drawing, audio, video, etc and it easily embeds a video on the web page. It does not require any additional software like Flash for watching videos.
+
+Some of the important reasons to use HTML5 are given below:
+
+Legacy and cross-browser support
+Better interactions
+Smarter storage
+Cleaner code
+----------------------------------------------------------------------------
+Q30. What’s the difference between the <svg> and <canvas> elements?
+
+The <svg> element is a container for SVG graphics. SVG has several methods for drawing paths, boxes, circles, text, and even bitmap images.
+
+SVG is a language for describing 2D graphics, but <canvas> allows you to draw 2D graphics on the fly using JavaScript.
+
+SVG is XML-based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
+
+In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+
+Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+
+----------------------------------------------------------------------------
+
+
